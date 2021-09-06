@@ -1,0 +1,401 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+
+:root {
+  --primary-color: #34d399;
+  --dark-grey: #374151;
+  /* --off-white: #F3F4F6; */
+  background-color: #ecfdf5;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: larger;
+
+  margin: 0px;
+  color: #eeeeee;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(101, 115, 255),
+    rgb(122, 113, 238),
+    rgb(143, 112, 220),
+    rgb(164, 110, 203),
+    rgb(185, 109, 185),
+    rgb(206, 107, 168),
+    rgb(178, 125, 175),
+    rgb(149, 143, 181),
+    rgb(121, 162, 188),
+    rgb(92, 180, 194),
+    rgb(64, 198, 201),
+    rgb(35, 216, 207)
+  );
+}
+hr {
+  margin: 2rem 0rem;
+}
+
+/** spaces **/
+
+.margin-md {
+  margin: 2rem;
+}
+
+/** container **/
+.container {
+  padding: 0rem 1rem;
+}
+
+.container-center {
+  max-width: 600px;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+}
+
+/** links **/
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  box-sizing: border-box;
+}
+
+.primary-link {
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: white;
+  display: block;
+  max-width: 166px;
+  margin: 1rem 1rem 1rem 0rem;
+}
+.secondary-link {
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: white;
+  display: block;
+  max-width: 166px;
+  margin: 1rem 1rem 1rem 0rem;
+}
+
+/** look into BEM naming convention for CSS **/
+
+/** lists **/
+
+.list-non-bullet {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+/** navigation **/
+
+.navigation {
+  color: white;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.navigation .nav-brand {
+  font-weight: bold;
+}
+
+.navigation .nav-pills {
+  text-align: right;
+  font-weight: bolder;
+}
+
+.navigation .link {
+  color: white;
+}
+
+.navigation .link-active {
+  font-weight: bolder;
+  color: #4affc3;
+  font-size: large;
+}
+
+/** header **/
+h1 {
+  color: var(--dark-grey);
+}
+
+.hero {
+  padding: 2rem;
+  padding-top: 0rem;
+}
+
+.hero .hero-img {
+  max-width: 80%;
+  width: 201px;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.hero .hero-heading {
+  color: var(--dark-grey);
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.hero .hero-heading .heading-inverted {
+  color: var(--primary-color);
+}
+
+/** sections **/
+
+.section {
+  padding: 2rem;
+}
+
+.ow {
+  background-color: var(--off-white);
+}
+
+/** footers **/
+
+/** projects **/
+.showcase-list {
+  padding: 2rem;
+}
+
+/** blogs **/
+.showcase-blog {
+  padding-bottom: 6rem;
+}
+
+/*footer**/
+
+/*Whubs.com - Download Free Responsive Website Layout Templates designed on HTML5 CSS3,
+Bootstrap which are 100% Mobile friendly. w3Hubs all Layouts are responsive cross 
+browser supported, best quality world class designs.*/
+
+.w3hubs-footer {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  background: #272727;
+  padding: 10px 0px;
+}
+.w3hubs-icon {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.w3hubs-icon ul {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.w3hubs-icon ul li {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  margin: 5px 26px;
+  border-radius: 100%;
+  background: #7dcea0;
+}
+.w3hubs-icon ul li a {
+  text-decoration: none;
+  color: #272727;
+  font-size: 30px;
+  display: block;
+}
+.w3hubs-icon ul li a i {
+  line-height: 39px;
+}
+.w3hubs-icon ul li:hover {
+  background: #e67e22;
+}
+.w3hubs-icon ul li a:hover > i {
+  transform: scale(1.3) rotate(20deg);
+}
+.w3hubs-nav {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 25px;
+}
+.w3hubs-nav ul {
+  margin: 0px;
+  padding: 5px;
+  text-align: center;
+}
+
+.w3hubs-nav ul li {
+  display: inline-block;
+  margin: 9px 22px;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.w3hubs-nav ul li a {
+  text-decoration: none;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 11px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.w3hubs-nav ul li a:hover {
+  color: #e67e22;
+}
+
+.w3hubs-nav1 {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 15px;
+}
+.w3hubs-nav1 ul {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.w3hubs-nav1 ul li {
+  display: inline-block;
+  margin: 0px 20px;
+}
+.w3hubs-nav1 ul li a {
+  text-decoration: none;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.w3hubs-nav1 ul li a:hover {
+  color: #e67e22;
+}
+.w3hubs-nav2 {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.w3hubs-nav2 ul {
+  text-align: center;
+}
+
+.w3hubs-nav2 ul li {
+  width: 50px;
+  height: 50px;
+  margin: 0px 10px;
+  border-radius: 100%;
+  background: #fff;
+}
+.w3hubs-nav2 ul li a {
+  text-decoration: none;
+  color: #272727;
+  font-size: 25px;
+  display: block;
+}
+.w3hubs-nav2 ul li a i {
+  line-height: 50px;
+}
+.w3hubs-nav2 ul li:hover {
+  background: #e67e22;
+}
+.w3hubs-nav2 ul li a:hover > i {
+  transform: scale(1.6) rotate(180deg);
+}
+.footer-end {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  background: #7dcea0;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+.footer-end p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.footer-end a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-end a:hover {
+  color: #e67e22;
+}
+
+@media (max-width: 400px) {
+  .w3hubs-nav1 ul li a,
+  .w3hubs-nav ul li a {
+    font-size: 16px;
+  }
+}
+@media (max-width: 400px) {
+  .w3hubs-nav1 ul li a,
+  .w3hubs-nav ul li a {
+    font-size: 14px;
+  }
+  .w3hubs-nav ul li {
+    padding: 0px;
+  }
+}
+@media (max-width: 375px) {
+  .w3hubs-nav1 ul li a,
+  .w3hubs-nav ul li a {
+    font-size: 13px;
+  }
+}
+@media (max-width: 375px) {
+  .w3hubs-nav1 ul li a,
+  .w3hubs-nav ul li a {
+    font-size: 11px;
+  }
+  .w3hubs-nav ul li {
+    margin: 5px 20px;
+  }
+  .w3hubs-nav ul li.p1 {
+    padding-top: 10px;
+  }
+}
+@media (max-width: 375px) {
+  .w3hubs-nav ul li,
+  .w3hubs-nav1 ul li {
+    display: block;
+    padding: 5px;
+  }
+  .w3hubs-nav2 ul li {
+    display: none;
+  }
+  .w3hubs-icon ul li a i {
+    line-height: 38px;
+  }
+  .w3hubs-icon ul li a {
+    font-size: 20px;
+  }
+  .w3hubs-icon ul li {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media (max-width: 373px) {
+  .w3hubs-nav ul li.p1 {
+    padding-top: 0px;
+  }
+}
+@media (max-width: 373px) {
+  .nav-brand,
+  .list-item-inline a {
+    font-size: small;
+  }
+}
