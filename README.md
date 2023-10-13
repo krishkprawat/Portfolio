@@ -1,5 +1,9 @@
 # Portfolio
-check
+
+
+
+
+use this s3 permission file into s3 bucket ---
 {
     "Version": "2012-10-17",
     "Statement": [
