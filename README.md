@@ -1,5 +1,7 @@
 ![Screenshot 2023-10-13 133850](https://github.com/krishkprawat/Portfolio/assets/47602022/80c7ae91-06d6-41d1-8f01-29e0b526ff45)
-![Uploading Screenshot 2023-10-13 133909.png…]()
+
+![Screenshot 2023-10-13 133909](https://github.com/krishkprawat/Portfolio/assets/47602022/51bfdd7b-36ed-4c8a-9f10-6d926a2cce63)
+
 
 
 GitHub Actions and AWS provide a powerful combination for seamless deployments. In this guide, we'll walk you through setting up an automated workflow to deploy your portfolio website to an AWS S3 bucket.
