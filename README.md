@@ -13,7 +13,7 @@ use this s3 permission file into s3 bucket ---
             "Principal": "*",
             "Action": [
                 "s3:GetObject",
-                "s3:*"
+                "s3:*" #we can give Lsit object also but now i am giving all permission
             ],
             "Resource": "arn:aws:s3:::kp-portfolio/*"
         }
